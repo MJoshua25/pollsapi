@@ -40,7 +40,7 @@ def fake(request):
     #     'voted_by':get_user()
     # })
     # inserted_pks = seeder.execute()
-    for i in range(100000):
+    for i in range(10000):
         try:
             add_vote()
         except:
